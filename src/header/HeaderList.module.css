@@ -1,0 +1,21 @@
+.headerList {
+    max-width: 1920px;
+    min-height: 223px;
+    background: #F6F5FF;
+    color: #101750;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+.headingList {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0em;
+    padding-left: 190px;
+    color: #101750;
+
+}

@@ -1,0 +1,65 @@
+.block{
+    /*position: relative;*/
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.icon {
+    min-height: 280px;
+    width: 270px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 53px 53px 15px 53px;
+    background-color: #F6F7FB;
+    position: relative;
+}
+.basket{
+    border-radius: 50px;
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.icon:hover .basket {
+    display: block;
+    cursor: pointer;
+}
+.image {
+    height: 188px;
+    width: 188px;
+}
+.productTitle{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 17px;
+    color: #151875;
+}
+.description{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 7px;
+    color: #151875
+}
+.productDescription{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 7px;
+    color: #FB2E86
+}
+.icon:hover{
+    background-color:  #EBF4F3;
+}
