@@ -1,9 +1,43 @@
-.inc{
+.cart {
+    flex-direction: column;
+}
+
+.cartBlock {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
 
 }
-.dec{
 
+.inc {
+    width: 25px;
+    height: 25px;
+cursor: pointer;
 }
-.del{
 
+.dec {
+    width: 25px;
+    height: 25px;
+cursor: pointer;
+}
+
+.del {
+    width: 25px;
+    height: 25px;
+    text-decoration: none;
+    color: #FB2E86;
+    cursor: pointer;
+}
+
+.num {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    padding: 2px;
 }

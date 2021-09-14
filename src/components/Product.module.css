@@ -1,5 +1,4 @@
 .block{
-    /*position: relative;*/
     display: inline-flex;
     flex-direction: column;
     flex-wrap: wrap;
